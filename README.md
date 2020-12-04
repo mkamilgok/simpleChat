@@ -2,8 +2,8 @@
 
 This project is the implementation of simple chat application server.
 
-- I have never used Node.js, Express, Mongoose before, but I was planning to learn it. That's why through this project first I learned all of these technologies(Node.js , Express Framework, Mongoose and Authentication with Passport.js) 
-and then implemented naively for this application. I managed to implement a REST API but I couldn't integrate websockets to the application.
+- I have never used Node.js, Express, Mongoose before, but I was planning to learn it. That's why through this project first I learned all of these technologies(Node.js , Express Framework, Mongoose and Authentication with Passport.js) and then implemented naively for this application. Definitely, the code would be more modularized & organized but these were my baby steps with these tech stack.
+- I managed to implement a REST API but I couldn't integrate websockets to the application.
 
 - Although I tried to dockerize app, I couldn't test it because my Windows Home Edition is not able to install Docker.
 
