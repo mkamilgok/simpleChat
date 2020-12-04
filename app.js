@@ -38,10 +38,6 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get("/", (req, res) => {
-  res.render('index', {title: "hi"});
-});
-
 app.get("/failure", (req, res) => {
   res.status(404).send("Please register a new account.");
 });
@@ -108,7 +104,3 @@ const chatsRouter = require("./chats");
 app.use("/chats", chatsRouter);
 
 app.listen(3000, () => console.log("Server Started"));
-
-module.exports = function (){
-  return "hello";
-}
