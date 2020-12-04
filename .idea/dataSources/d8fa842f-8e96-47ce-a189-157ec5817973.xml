@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.19">
+    <root id="1">
+      <ServerVersion>4.2.3</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="local"/>
+    <schema id="5" parent="1" name="meanstackdb"/>
+    <schema id="6" parent="1" name="subscribers"/>
+    <schema id="7" parent="1" name="users"/>
+    <table id="8" parent="7" name="blockeds"/>
+    <table id="9" parent="7" name="logs"/>
+    <table id="10" parent="7" name="messages"/>
+    <table id="11" parent="7" name="users"/>
+    <column id="12" parent="9" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="13" parent="9" name="date">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="14" parent="9" name="username">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="15" parent="9" name="__v">
+      <Position>1</Position>
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="16" parent="9" name="description">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="17" parent="10" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="18" parent="10" name="messageDate">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="19" parent="10" name="receiverUsername">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="20" parent="10" name="__v">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="21" parent="10" name="messageText">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="22" parent="10" name="senderUsername">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="23" parent="11" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="24" parent="11" name="__v">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="25" parent="11" name="password">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="26" parent="11" name="signUpDate">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="27" parent="11" name="email">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="28" parent="11" name="username">
+      <DataType>String(0)|12s</DataType>
+    </column>
+  </database-model>
+</dataSource>
